@@ -1,0 +1,9 @@
+I need a website that helps users track there work. you should have a timer where a user 
+can start a 50 minut work session and then be told its time to take a break. you should make a fetch request to localhost:8082 to add data to the database. 
+you should hit http://localhost:8082/add_work_sessions after the timer is up. this is a post endpoint an take a json that looks like that has 
+  "id"
+  "user_id"
+  "start_datetime"
+  "end_datetime"
+
+the user id should be a random string for new. 
